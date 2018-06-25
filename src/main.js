@@ -3,6 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './assets/style/reset.css';
+import './assets/iconfont/iconfont.css';
+import 'swiper/dist/css/swiper.css'
+import VueResource from 'vue-resource'
+
+Vue.use(VueResource)
 
 Vue.config.productionTip = false
 
